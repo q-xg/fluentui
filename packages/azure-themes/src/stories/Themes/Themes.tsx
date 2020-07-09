@@ -28,6 +28,7 @@ import { ColorPickerBasicExample } from '../components/colorpicker';
 import { ComboBoxBasicExample } from '../components/comboBox';
 import { ContextualMenuDefaultExample } from '../components/ContextMenu';
 import { DropdownBasicExample } from '../components/dropdown';
+import { DatePickerBoundedExample } from '../components/datePicker';
 
 const Example = () => (
   // tslint:disable-next-line:jsx-ban-props
@@ -63,6 +64,7 @@ const Example = () => (
     <ChoiceGroupBasicExample />
     <ToggleBasicExample />
     <ColorPickerBasicExample />
+    <DatePickerBoundedExample />
 
     <ContextualMenuDefaultExample />
 

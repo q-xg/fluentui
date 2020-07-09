@@ -125,7 +125,7 @@ export const DatePickerStyles = (props: IDatePickerStyleProps): Partial<IDatePic
         '.ms-DatePicker-yearOption': { color: semanticColors.bodyText },
         '.ms-DatePicker-yearOption--disabled': { color: semanticColors.bodyText },
         '.ms-DatePicker-monthOption--disabled': { color: semanticColors.bodyText },
-        '.ms-DatePicker-day--disabled': { color: semanticColors.bodyText },
+        '.ms-DatePicker-day--disabled': { color: semanticColors.disabledBodyText },
         '.ms-DatePicker-nextDecade--disabled': { color: semanticColors.bodyText },
         '.ms-DatePicker-prevDecade--disabled': { color: semanticColors.bodyText },
         '.ms-DatePicker-prevYear--disabled': { color: semanticColors.bodyText },
